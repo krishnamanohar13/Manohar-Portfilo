@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manohar Sativilli</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('56.jpg');
+            background-size: cover; 
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background: linear-gradient(90deg, rgba(33, 37, 41, 0.9) 0%, rgba(0, 123, 255, 0.9) 100%);
+            color: lightblue;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .rounded-img {
+            width: 220px;
+            height: 220px;  
+            border-radius: 90%;
+            animation: fadeIn 2s ease-in-out;
+            box-shadow: 0 0 30px orange;
+        }
+        .header-info {
+            margin-top: 2rem;
+        }
+        .header-info h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        .header-info p {
+            margin: 0.2rem 0;
+            font-size: 1.2rem;
+        }
+        .header-info .links a {
+            color: rgb(255, 255, 255);
+            margin: 0 0.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .header-info .links a:hover {
+            text-decoration: underline;
+            color: green;
+        }
+        .container section {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: lightgreen;
+            box-shadow: 0 0 30px blueviolet;
+            animation: slideIn 1s ease-in-out, colorChange 3s infinite alternate;
+        }
+        .container section h2 {
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .container section p, .container section ul, .container section li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        .container section ul {
+            padding-left: 20px;
+        }
+        .container section li {
+            list-style-type: disc;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes slideIn {
+            0% { transform: translateY(20px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes colorChange {
+            from { background-color: lightgreen; }
+            to { background-color: lightblue; }
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .btn-custom {
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="2.jpg" alt="Manohar Sativilli" class="rounded-img">
+        <div class="header-info">
+            <h1>Manohar Sativilli</h1>
+            <p>Software Developer</p>
+            <p>sativillimanohar26@gmail.com | 8790960412</p>
+            <p>Railway Road Near Diamond Park, Vishakhapatnam, India</p>
+            <div class="links">
+                <a href="https://linkedin.com/in/sativilli-manohar-4237">LinkedIn</a> |
+                <a href="https://github.com/krishnamanohar13">GitHub</a> |
+                <a href="https://www.naukri.com/code360/profile/0235ec60-19d0-4e16-a32a-8bae53b48982">Coding profile</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="bg-teal text-white p-3">
+        <div class="container">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a href="#education" class="nav-link text-white">Education</a></li>
+                <li class="nav-item"><a href="#work-experience" class="nav-link text-white">Work Experience</a></li>
+                <li class="nav-item"><a href="#achievements" class="nav-link text-white">Achievements</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link text-white">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link text-white">Projects</a></li>
+                <li class="nav-item"><a href="#certificates" class="nav-link text-white">Certificates</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mt-4 p-4  shadow-lg">
+        <section id="education">
+            <h2 class="display-6">Education</h2>
+            <div class="mt-3">
+                <h3 class="h5 highlight">B. Tech CSE(AIML)</h3>
+                <p>GMR Institution of Technology, Rajam (10/2020 - 04/2024) - CGPA: 6.78/10</p>
+            </div>
+            <div class="mt-3">
+                <h3 class="h5 highlight">Intermediate MPC</h3>
+                <p>Narayana Junior College (06/2018 - 03/2020) - 829/1000</p>
+            </div>
+        </section>
+
+        <section id="work-experience">
+            <h2 class="display-6">Work Experience</h2>
+            <div class="mt-3">
+                <h3 class="h5 highlight">Artificial Neural Network Engineer</h3>
+                <p>Prodyogic Technologies Private Limited (05/2024 - Present) - Mumbai (Remote)</p>
+                <ul>
+                    <li>Contributed to the development of an AI-powered healthcare chatbot.</li>
+                    <li>Annotated medical dialog data and trained neural network models.</li>
+                    <li>Gained experience in NLP and healthcare technology.</li>
+                </ul>
+            </div>
+            <div class="mt-3">
+                <h3 class="h5 highlight">AWS Intern</h3>
+                <p>Hask Tek Solutions (12/2023 - 02/2024) - Vizag, Andhra Pradesh</p>
+                <ul>
+                    <li>Enhanced AWS Cloud Services to deploy web applications, including the Food Zone application using Django.</li>
+                    <li>Ensured security and compliance by leveraging AWS services like VPC, EC2, and S3.</li>
+                    <li>Managed hosting and infrastructure for robust and secure website deployment.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2 class="display-6">Achievements</h2>
+            <div class="mt-3">
+                <h3 class="h5 highlight">Data Thon 2.0 ACM</h3>
+                <p>Secured 3rd position in Data Thon 2.0 held at GMRIT organized by ACM. (08/2022)</p>
+            </div>
+            <div class="mt-3">
+                <h3 class="h5 highlight">Coding Ninjas</h3>
+                <p>Achieved College rank 8 in Code Kaze conducted by Coding ninjas. (07/2022)</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="display-6">Skills</h2>
+            <div class="mt-3">
+                <p>Python, OOPS, DSA, JavaScript, NLP, Restful API, Machine Learning, Deep Learning, MLOPS, Tensorflow, Flask, Django, AWS, SQL, HTML & CSS, Machine Learning, LLM</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="display-6">Personal Projects</h2>
+        
+            <div class="row mt-3 align-items-center">
+                <div class="col-md-8">
+                    <h3 class="h5 highlight">Student Admin Dashboard for College Website</h3>
+                    <a href="https://github.com/krishnamanohar13/Student-Admin-Portal" target="_blank">GitHub Link</a>
+                    <p>(06/2023 - 10/2023)</p>
+                    <p>Developed the Student Admin Dashboard using Frontend Html, CSS, JavaScript and Backend Using Flask.</p>
+                    <p>Dashboard can be able to download the details in CSV Format.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="login.jpg" class="img-fluid rounded" alt="Student Admin Dashboard Image">
+                </div>
+            </div>
+        
+            <div class="row mt-3 align-items-center">
+                <div class="col-md-8">
+                    <h3 class="h5 highlight">Medical Chatbot using NLP</h3>
+                    <a href="https://github.com/krishnamanohar13/Medical-Chatbot-using-NLP" target="_blank">GitHub Link</a>
+                    <p>(01/2024 - 03/2024)</p>
+                    <p>Created a medical chatbot with advanced NLP capabilities and BERT model deployment via Flask</p>
+                    <p>Trained the model using Neural Networks concept and BERT Model for personalized healthcare assistance.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="io.jpeg" class="img-fluid rounded" alt="Medical Chatbot Image">
+                </div>
+            </div>
+        
+            <div class="row mt-3 align-items-center">
+                <div class="col-md-8">
+                    <h3 class="h5 highlight">Food Zone Application using Django Deploy in EC2 on AWS</h3>
+                    <a href="https://github.com/krishnamanohar13/Food-Zone-Django-" target="_blank">GitHub Link</a>
+                    <p>(03/2024 - 04/2024)</p>
+                    <p>Developed and deployed 'FlavorHub' Food Zone Application using Django on AWS EC2</p>
+                    <p>Utilized front-end technologies HTML, CSS JavaScript, backend Django, and SQLite databases.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="foodplaza-admin-home-1.png" class="img-fluid rounded" alt="Food Zone Application Image">
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates">
+            <h2 class="display-6">Certificates</h2>
+            <div class="mt-3">
+                <p>Introduction to Python Programming - Coding Ninjas</p>
+                <p>Machine Learning, NLP Bootcamp - MLOPS Deployment - Udemy by Krishna Naik</p>
+                <p>Python Django Developer - Simplilearn</p>
+                <p>SQL - Hacker Rank</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white p-4 mt-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Manohar Sativilli. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
